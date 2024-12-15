@@ -7,4 +7,7 @@ name[1:2]='melano'
 __name__=["gorgi" "mariami" "guliko" "nikolozi" "aleqsandre"]
 print(__name__[0:2])
 #4. შექმენით სია, სადაც გექნებათ 5 სტრინგი, შემდეგ კი slicing-ის მეშვეობით გამოიტანეთ პირველი და მეორე ელემენტი (negative indexing).
+print(__name__[-5:-3])
 #5. შექმენით სია, სადაც გექნებათ 6 სტრინგი, შემდეგ კი slicing-ის მეშვეობით გამოიტანეთ პირველი და მეოთხე ელემენტი (negative indexing & positive indexing).
+name=["nika""beqa""lika""barbare""temo""tata"]
+print(name[-6][4])
